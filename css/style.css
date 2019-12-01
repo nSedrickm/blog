@@ -1,3 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Alata|Bree+Serif|Calistoga|Merriweather+Sans|Montserrat&display=swap");
+
+.transparent {
+  background: transparent;
+}
+/* fonts classes */
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.roboto-md {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.robot-lg {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.lato-lg {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+}
+.lato-md {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+.anton {
+  font-family: "Anton", sans-serif;
+}
+.anton-lg {
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+}
+.abril {
+  font-family: "Abril Fatface", cursive;
+}
+.abril-md {
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.5rem;
+}
+.abril-lg {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2.5rem;
+}
+.lobster {
+  font-family: "Lobster", cursive;
+}
+
+.lobster-lg {
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+}
+
+.VT323 {
+  font-family: "VT323", monospace;
+}
+
+.merriweather {
+  font-family: "Merriweather Sans", sans-serif;
+}
+.bree {
+  font-family: "Bree Serif", serif;
+}
+.alata {
+  font-family: "Alata", sans-serif;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.calistoga {
+  font-family: "Calistoga", cursive;
+}
+
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
   padding: 0;
@@ -119,16 +198,19 @@ h6 {
   color: #fff;
 }
 .card-body a {
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
 }
 .card-body a:hover {
   color: #ff4800;
 }
-.widgets a {
-  color: black;
+.widgets li a {
+  color: rgba(0, 0, 0, 0.5);
 }
 .widgets a:hover {
   color: #ff4800;
+}
+.media-body a {
+  color: rgba(0, 0, 0, 0.8);
 }
 .pagination > li > a {
   background-color: white;
