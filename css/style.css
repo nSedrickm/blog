@@ -56,6 +56,10 @@
   font-family: "Lobster", cursive;
   font-size: 2.5rem;
 }
+.lobster-md {
+  font-family: "Lobster", cursive;
+  font-size: 1.5rem;
+}
 
 .VT323 {
   font-family: "VT323", monospace;
@@ -84,7 +88,7 @@ body {
   font-size: 14px;
 }
 
-.nav-link {
+header .nav-link {
   color: #fff;
   font-size: 14px;
   padding: 30px 20px;
@@ -100,8 +104,20 @@ a:hover {
   color: #d13b00;
   text-decoration: none;
 }
+
 footer {
   background-color: black;
+  color: white;
+}
+footer a.nav-link {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+footer a.nav-link:hover {
+  color: red;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -237,11 +253,19 @@ h6 {
   border: none;
 }
 
+#blog-author .media > img {
+  height: 100px;
+  width: 100px;
+  margin: 0 1rem 0 0;
+  border-radius: 100%;
+}
 .media > img {
   height: 90px;
   width: 90px;
 }
 
-a:hover {
-  color: #ff4800;
+.icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
 }

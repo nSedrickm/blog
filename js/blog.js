@@ -1,3 +1,7 @@
+//footer date placement
+var date = document.getElementById("date");
+date.innerHTML = new Date().getFullYear() + " ";
+
 //controls all blog post placements
 $(document).ready(() => {
     mydata('../MOCK_DATA_SMALL.json',
@@ -41,8 +45,8 @@ function renderHTML(data) {
                                     <img class="card-img rounded" src="${data[i].postImage}" alt="post photo">
                                 </a>
                                 <a href="#" class="post_date">
-                                    <h3>${data[i].postDate[0]}</h3>
-                                    <p class="text-white my-2">${data[i].postDate[7]}</p>
+                                    <h3>${data[i].postDate}</h3>
+                                    <!-- <p class="text-white my-2">${data[i].postDate[7]}</p> -->
                                 </a>
                             </div>
 
@@ -90,4 +94,12 @@ function renderHTML(data) {
     recent_post_section.innerHTML = recent_posts;
 };
 
-
+//blog likes toggle
+var likes = document.getElementById("like-icon");
+var metrics = document.getElementById("like-metrics");
+var stats = 0;
+likes.addEventListener("click", () => {
+    likes.src = "img/icons/liked.svg";
+    stats += 1;
+    metrics.innerHTML = stats + "k";
+});
